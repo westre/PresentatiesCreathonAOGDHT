@@ -1,0 +1,72 @@
+#overlay {
+    background-image: url(BG.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.stf {
+    line-height: 0.8 !important;
+    margin-bottom: 50px;
+    font-weight: 800;
+    color: cyan;
+}
+
+.header-text {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.header-text-box {
+    background-color: black;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.partners {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.partner-image {
+    width: 50%;
+    text-align: center;
+}
+
+.partner-image-large {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .accordion-stf {
+    background-color: black;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 15px;
+ }
+
+ .card {
+     background-color: #4d4d4d;
+ }
+
+ .btn-link {
+     color: cyan;
+     font-weight: 500;
+ }
